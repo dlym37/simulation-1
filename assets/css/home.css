@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #ab2a19;/*SIM 1 23E*/
+    display: flex;/*SIM 1 25F*/
+    justify-content: center;/*SIM 1 27C*/
+    align-items: center;/*SIM 1 27D*/
+    color: white;/*SIM 1 23D*/
+    font-weight: 700;/*SIM 1 23D*/
+    font-family: Open Sans, sans-serif;
+    font-size: 30px;/*SIM 1 23D*/
+    flex-wrap: wrap;/*SIM 1 27E*/
+}
+.logo {
+    position: relative;/*SIM 1 25C */
+    top: 13px;
+    margin-right: 10px;/*SIM 1 24C*/
+    border: 0px;/*SIM 1 24D*/
+    padding: 0px;/*SIM 1 24E*/
+    box-sizing: 50px;/*SIM 1 24F*/
+    width: 50px;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;/*SIM 1 24C*/
+}
