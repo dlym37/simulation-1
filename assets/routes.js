@@ -6,8 +6,8 @@ import Bin from './components/Bin';
 import Edit from './components/Edit';
 import Shelf from './components/Shelf';
 
-<Switch>
-    <Route exact path="/" component={Home} />
+<Switch>{/*Sim 1 42G*/}
+    <Route exact path="/" component={Home} />{/*Sim 1 42F*/}
     <Route path="/shelfs/A" component={ShelfA}/>
     <Route path="/shelfs/B" component={ShelfB}/>
     <Route path="/shelfs/C" component={ShelfC}/>
